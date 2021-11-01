@@ -10,7 +10,7 @@ class Weather(commands.Cog):
 
     @commands.command()
     async def weather(self, ctx, city: str):
-        OWM = pyowm.OWM('91a4fb5f88618a3166d01957bdca9930')
+        OWM = pyowm.OWM('token')
         observation = OWM.weather_at_place(city)
         w = observation.get_weather()
         temperature = w.get_temperature('celsius')['temp']
