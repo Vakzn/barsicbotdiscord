@@ -1,0 +1,17 @@
+asyncio==3.4.3
+discord==1.7.3
+discord-components==1.1.2
+discord-py-slash-command==2.0.4
+discord.py==1.6.0
+emoji==1.4.1
+geocoder==1.38.1
+geojson==2.5.0
+iso3166==1.0.1
+pandas==1.2.5
+pymongo==3.11.3
+pyowm==2.0.0
+requests==2.25.1
+reverse-geocoder==1.5.1
+textblob==0.15.3
+youtube-dl==2021.6.6
+youtube-search-python==1.4.6
